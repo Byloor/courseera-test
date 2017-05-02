@@ -2,9 +2,7 @@
 	box-sizing: border-box;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
-section p {
-    padding: 0 6px 4px 6px;
-}
+
 h1{
 
 text-align: center;
@@ -19,8 +17,11 @@ section{
 margin-bottom: 25px;
 	border:2px solid #000000;
 	
+	
 }
-
+p{
+	padding: 10px;
+}
 section h2 {
     border-bottom: 1px solid #000000;
     border-left: 1px solid #000000;
@@ -31,7 +32,8 @@ section h2 {
     width: 40%;
     background-color: pink;
 }
-@media (min-width: 992px){
+@media (min-width: 992px)
+{
 section
 {
 	float:left;
